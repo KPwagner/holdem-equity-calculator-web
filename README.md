@@ -1,1 +1,1 @@
-# holdem-equity-calculator-web
+# Hold'Em Equity Calculator
