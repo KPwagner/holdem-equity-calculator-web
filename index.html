@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Hold'em Equity Calculator</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .hand-text-input div {
+      margin-bottom: 1rem;
+    }
+
+    .hand-text-input label {
+      display: block;
+      margin: 0.2rem 0;
+    }
+
+    .hand-text-input input {
+      width: 4rem;
+      font-size: 1.2rem
+    }
+
+    .hand-text-input span {
+      display: inline-block;
+      margin: 0 1rem;
+    }
+    .test-output {
+      margin: 0;
+      padding: 0;
+      font-family: monospace;
+      font-size: 0.7rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>Hold'em Equity Calculator</h2>
+
+  <p>
+  <div class="hand-text-input"></div>
+  <div class="hand-text-input"></div>
+  </p>
+
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+  <script type="module" src="equity-calc.js"></script>
+  <script type="module" src="tests.js"></script>
+
+</body>
+
+</html>
